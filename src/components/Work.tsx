@@ -19,7 +19,7 @@ const Work = () => {
 
           <div className="work__links">
             <a
-              href="https://your-live-demo-link.com"
+              href="https://selamcustomersupport.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="work__button"
@@ -28,7 +28,7 @@ const Work = () => {
             </a>
 
             <a
-              href="https://github.com/yourusername/customer-support-system"
+              href="https://github.com/Chernetm/help-center-backend/"
               target="_blank"
               rel="noopener noreferrer"
               className="work__button"
@@ -50,7 +50,7 @@ const Work = () => {
 
           <div className="work__links">
             <a
-              href="https://your-ecommerce-live-site.com"
+              href="https://ecommerce-go.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="work__button"
@@ -59,7 +59,7 @@ const Work = () => {
             </a>
 
             <a
-              href="https://github.com/yourusername/ecommerce-platform"
+              href="https://github.com/Chernetm/ecommerce-backend/"
               target="_blank"
               rel="noopener noreferrer"
               className="work__button"
@@ -81,7 +81,7 @@ const Work = () => {
 
           <div className="work__links">
             <a
-              href="https://your-school-portal-live-site.com"
+              href="https://southwestacademy.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="work__button"
@@ -90,7 +90,7 @@ const Work = () => {
             </a>
 
             <a
-              href="https://github.com/yourusername/school-portal-system"
+              href="https://github.com/Chernetm/school_mg"
               target="_blank"
               rel="noopener noreferrer"
               className="work__button"
