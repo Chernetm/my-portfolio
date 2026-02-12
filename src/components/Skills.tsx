@@ -43,7 +43,7 @@ const Skills = () => {
                                 <BadgeCheck className="skills__icon" />
                                 <div>
                                     <h3 className="skills__name">React</h3>
-                                    <span className="skills__level">Intermediate</span>
+                                    <span className="skills__level">Advanced</span>
                                 </div>
                             </div>
 
@@ -68,7 +68,7 @@ const Skills = () => {
                                 <BadgeCheck className="skills__icon" />
                                 <div>
                                     <h3 className="skills__name">Golang</h3>
-                                    <span className="skills__level">Intermediate</span>
+                                    <span className="skills__level">Advanced</span>
                                 </div>
                             </div>
 
@@ -86,7 +86,7 @@ const Skills = () => {
                                 <BadgeCheck className="skills__icon" />
                                 <div>
                                     <h3 className="skills__name">MySQL</h3>
-                                    <span className="skills__level">Intermediate</span>
+                                    <span className="skills__level">Advanced</span>
                                 </div>
                             </div>
 

@@ -14,8 +14,8 @@ const Contact = () => {
                         <div className="contact__card">
                             <Mail className="contact__card-icon" />
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">user@email.com</span>
-                            <a href="mailto:user@email.com" className="contact__button">
+                            <span className="contact__card-data">chernetmekuria379@gmail.com</span>
+                            <a href="mailto:chernetmekuria379@gmail.com" className="contact__button">
                                 Write me <ArrowRight className="contact__button-icon" />
                             </a>
                         </div>
@@ -23,8 +23,8 @@ const Contact = () => {
                         <div className="contact__card">
                             <Phone className="contact__card-icon" />
                             <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">999-888-777</span>
-                            <a href="#" className="contact__button">
+                            <span className="contact__card-data">+251955272813</span>
+                            <a href="https://wa.me/251955272813" className="contact__button">
                                 Write me <ArrowRight className="contact__button-icon" />
                             </a>
                         </div>
