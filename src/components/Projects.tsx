@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, ExternalLink, Layout, Server, Monitor, ArrowUpRight } from 'lucide-react';
+import { Github, ExternalLink, Server } from 'lucide-react';
 
 interface Project {
     title: string;
@@ -12,9 +12,9 @@ interface Project {
 
 const projects: Project[] = [
     {
-        title: 'Secure School Portal',
+        title: 'Secure School Management Portal',
         description: 'Real-time exam management with authentication, payment gateway (Chapa), and student dashboard.',
-        tech: ['Next.js', 'PostgreSQL', 'Chapa'],
+        tech: ['Next.js', 'PostgreSQL', 'Chapa', 'Tailwind'],
         github: 'https://github.com/Chernetm/school_mg',
         live: 'https://southwestacademy.vercel.app/',
         category: 'Full Stack',

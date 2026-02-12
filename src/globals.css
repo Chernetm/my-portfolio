@@ -337,7 +337,6 @@ body {
     border-radius: 0;
     box-shadow: none;
     background: transparent;
-    backdrop-filter: none;
   }
 
   .profile-section {
@@ -349,6 +348,12 @@ body {
   .text-content {
     text-align: center;
   }
+.work__container {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;      /* allows horizontal scroll if needed */
+  padding-bottom: 1rem;
+}
 
   .text-content h2 {
     font-size: 36px;

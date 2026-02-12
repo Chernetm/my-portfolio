@@ -1,24 +1,41 @@
-import { Github, Twitter, Linkedin } from 'lucide-react';
+import { Facebook, Instagram, Twitter } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <footer className="py-8 bg-white border-t border-slate-100">
-            <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
-                <p className="text-slate-500 text-sm">
-                    © {new Date().getFullYear()} Chernet M. All rights reserved.
-                </p>
+        <footer className="footer">
+            <div className="footer__bg">
+                <div className="footer__container container grid">
+                    <div>
+                        <h1 className="footer__title">Chernet</h1>
+                        <span className="footer__subtitle">Full Stack Developer</span>
+                    </div>
 
-                <div className="flex gap-6">
-                    <a href="https://github.com/Chernetm" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-slate-900 transition-colors">
-                        <Github size={20} />
-                    </a>
-                    <a href="#" className="text-slate-400 hover:text-slate-900 transition-colors">
-                        <Linkedin size={20} />
-                    </a>
-                    <a href="#" className="text-slate-400 hover:text-slate-900 transition-colors">
-                        <Twitter size={20} />
-                    </a>
+                    <ul className="footer__links">
+                        <li>
+                            <a href="#services" className="footer__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" className="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" className="footer__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div className="footer__socials">
+                        <a href="https://www.facebook.com/" target="_blank" className="footer__social">
+                            <Facebook />
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" className="footer__social">
+                            <Instagram />
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" className="footer__social">
+                            <Twitter />
+                        </a>
+                    </div>
                 </div>
+
+                <p className="footer__copy">&#169; Chernet M. All rights reserved</p>
             </div>
         </footer>
     );

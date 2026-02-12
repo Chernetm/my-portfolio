@@ -1,44 +1,66 @@
-import { motion } from 'framer-motion';
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Phone, Mail, MapPin, ArrowRight } from 'lucide-react';
 
 const Contact = () => {
     return (
-        <section id="contact" className="py-24 px-4 bg-white relative overflow-hidden">
-            {/* Decorative Blobs */}
-            <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-indigo-50/50 rounded-full mix-blend-multiply filter blur-3xl opacity-30 pointer-events-none translate-x-1/2 -translate-y-1/2"></div>
+        <section className="contact section" id="contact">
+            <h2 className="section__title">Contact Me</h2>
+            <span className="section__subtitle">Get in touch</span>
 
-            <div className="max-w-4xl mx-auto relative z-10">
-                <motion.div
-                    initial={{ opacity: 0, scale: 0.95 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    className="bg-slate-900 rounded-[2rem] p-8 md:p-16 text-center shadow-2xl shadow-indigo-500/20 overflow-hidden relative"
-                >
-                    <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 to-purple-500/10" />
+            <div className="contact__container container grid">
+                <div className="contact__content">
+                    <h3 className="contact__title">Talk to me</h3>
 
-                    <div className="relative z-10">
-                        <h2 className="text-3xl md:text-5xl font-bold font-heading text-white mb-6">Interested in working together?</h2>
-                        <p className="text-slate-400 text-lg mb-10 max-w-2xl mx-auto">
-                            I'm always open to discussing product design work or partnership opportunities.
-                        </p>
-
-                        <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-12">
-                            <a href="mailto:example@gmail.com" className="flex items-center gap-3 text-white hover:text-indigo-400 transition-colors">
-                                <div className="p-3 bg-white/10 rounded-full backdrop-blur-sm">
-                                    <Mail size={24} />
-                                </div>
-                                <span className="font-medium">Get in touch</span>
+                    <div className="contact__info">
+                        <div className="contact__card">
+                            <Mail className="contact__card-icon" />
+                            <h3 className="contact__card-title">Email</h3>
+                            <span className="contact__card-data">user@email.com</span>
+                            <a href="mailto:user@email.com" className="contact__button">
+                                Write me <ArrowRight className="contact__button-icon" />
                             </a>
                         </div>
 
-                        <a
-                            href="mailto:example@gmail.com"
-                            className="inline-block px-8 py-4 bg-white text-slate-900 rounded-full font-bold text-lg hover:bg-indigo-50 transition-all hover:scale-105 shadow-lg"
-                        >
-                            Say Hello
-                        </a>
+                        <div className="contact__card">
+                            <Phone className="contact__card-icon" />
+                            <h3 className="contact__card-title">Whatsapp</h3>
+                            <span className="contact__card-data">999-888-777</span>
+                            <a href="#" className="contact__button">
+                                Write me <ArrowRight className="contact__button-icon" />
+                            </a>
+                        </div>
+
+                        <div className="contact__card">
+                            <MapPin className="contact__card-icon" />
+                            <h3 className="contact__card-title">Location</h3>
+                            <span className="contact__card-data">Addis Ababa, Ethiopia</span>
+                        </div>
                     </div>
-                </motion.div>
+                </div>
+
+                <div className="contact__content">
+                    <h3 className="contact__title">Write me your project</h3>
+
+                    <form className="contact__form">
+                        <div className="contact__form-div">
+                            <label className="contact__form-tag">Name</label>
+                            <input type="text" name="name" className="contact__form-input" placeholder="Insert your name" />
+                        </div>
+
+                        <div className="contact__form-div">
+                            <label className="contact__form-tag">Mail</label>
+                            <input type="email" name="email" className="contact__form-input" placeholder="Insert your email" />
+                        </div>
+
+                        <div className="contact__form-div contact__form-area">
+                            <label className="contact__form-tag">Project</label>
+                            <textarea name="project" cols={30} rows={10} className="contact__form-input" placeholder="Write your project"></textarea>
+                        </div>
+
+                        <button className="button button--flex">
+                            Send Message <ArrowRight className="button__icon" />
+                        </button>
+                    </form>
+                </div>
             </div>
         </section>
     );
