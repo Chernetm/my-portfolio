@@ -36,9 +36,7 @@ const Skills = () => {
                                     <span className="skills__level">Intermediate</span>
                                 </div>
                             </div>
-                        </div>
 
-                        <div className="skills__group">
                             <div className="skills__data">
                                 <BadgeCheck className="skills__icon" />
                                 <div>
@@ -46,12 +44,30 @@ const Skills = () => {
                                     <span className="skills__level">Advanced</span>
                                 </div>
                             </div>
+                        </div>
 
+                        <div className="skills__group">
                             <div className="skills__data">
                                 <BadgeCheck className="skills__icon" />
                                 <div>
                                     <h3 className="skills__name">Tailwind</h3>
                                     <span className="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div className="skills__data">
+                                <BadgeCheck className="skills__icon" />
+                                <div>
+                                    <h3 className="skills__name">Next JS</h3>
+                                    <span className="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div className="skills__data">
+                                <BadgeCheck className="skills__icon" />
+                                <div>
+                                    <h3 className="skills__name">Flutter</h3>
+                                    <span className="skills__level">Basic</span>
                                 </div>
                             </div>
                         </div>
@@ -79,6 +95,22 @@ const Skills = () => {
                                     <span className="skills__level">Basic</span>
                                 </div>
                             </div>
+
+                            <div className="skills__data">
+                                <BadgeCheck className="skills__icon" />
+                                <div>
+                                    <h3 className="skills__name">WebSocket</h3>
+                                    <span className="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div className="skills__data">
+                                <BadgeCheck className="skills__icon" />
+                                <div>
+                                    <h3 className="skills__name">PostgreSQL</h3>
+                                    <span className="skills__level">Basic</span>
+                                </div>
+                            </div>
                         </div>
 
                         <div className="skills__group">
@@ -94,6 +126,14 @@ const Skills = () => {
                                 <BadgeCheck className="skills__icon" />
                                 <div>
                                     <h3 className="skills__name">Firebase</h3>
+                                    <span className="skills__level">Basic</span>
+                                </div>
+                            </div>
+
+                            <div className="skills__data">
+                                <BadgeCheck className="skills__icon" />
+                                <div>
+                                    <h3 className="skills__name">MongoDB</h3>
                                     <span className="skills__level">Basic</span>
                                 </div>
                             </div>

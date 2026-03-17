@@ -99,6 +99,52 @@ const Work = () => {
             </a>
           </div>
         </div>
+
+        {/* Project 4 */}
+        <div className="work__card">
+          <img
+            src="/flutter.png"
+            alt="Child Safety and Transportation System"
+            className="work__img"
+          />
+
+          <h3 className="work__title">Child Safety & Transport Management System (Flutter)</h3>
+
+          <div className="work__links">
+            <a
+              href="#"
+              className="work__button"
+            >
+              Code <Github size={18} />
+            </a>
+          </div>
+        </div>
+
+        {/* Project 5 */}
+        <div className="work__card">
+          <img
+            src="/lottery.png"
+            alt="Ethio Digital Lottery System"
+            className="work__img"
+          />
+
+          <h3 className="work__title">Ethio Digital Lottery System</h3>
+
+          <div className="work__links">
+            <a
+              href="https://ethiodigitallottery.vercel.app/"
+              className="work__button"
+            >
+              Live <Globe size={18} />
+            </a>
+            <a
+              href="https://github.com/Chernetm/lottery-gobackend"
+              className="work__button"
+            >
+              Code <Github size={18} />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
