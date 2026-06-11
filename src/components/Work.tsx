@@ -28,7 +28,7 @@ const Work = () => {
             </a>
 
             <a
-              href="https://github.com/Chernetm/help-center-backend/"
+              href="https://github.com/Chernetm/selam-customer-support/"
               target="_blank"
               rel="noopener noreferrer"
               className="work__button"
