@@ -27,7 +27,7 @@ const About = () => {
                         </div>
 
                         <div>
-                            <span className="about__info-title">02+</span>
+                            <span className="about__info-title">03+</span>
                             <span className="about__info-name">Companies <br /> worked</span>
                         </div>
                     </div>
